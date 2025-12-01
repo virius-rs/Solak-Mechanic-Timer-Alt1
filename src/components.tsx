@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { Timer, ChatLine } from "./types";
 
 // --- ERROR BOUNDARY ---
-// Catches crashes in children and displays a fallback UI
 export class ErrorBoundary extends React.Component<
   { children: React.ReactNode },
   { hasError: boolean; error: Error | null }
@@ -106,7 +105,7 @@ export const PassiveStatus = ({
         whiteSpace: "nowrap",
         overflow: "hidden",
         fontWeight: 500,
-        paddingBottom: "2px",
+        paddingBottom: "2px", // Kept 2px adjustment for text alignment
         boxSizing: "border-box",
       }}
     >
@@ -197,6 +196,7 @@ export const ProgressBar = ({
           color: "#fff",
           fontSize: "0.8rem",
           textShadow: "0 1px 2px rgba(0,0,0,0.8)",
+          // Padding removed here to ensure perfect centering
         }}
       >
         {timer.label}
@@ -214,6 +214,7 @@ export const ProgressBar = ({
           color: "#fff",
           fontSize: "0.9rem",
           textShadow: "0 1px 2px rgba(0,0,0,0.8)",
+          // Padding removed here to ensure perfect centering
         }}
       >
         {timeDisplay}
@@ -357,7 +358,7 @@ export const DebuggerWindow = ({
                 minHeight: "16px",
                 whiteSpace: "pre-wrap",
                 wordBreak: "break-word",
-                color: "#fff",
+                color: "#fff", // Forced White Text
               }}
             >
               {line.text}
@@ -369,6 +370,7 @@ export const DebuggerWindow = ({
   );
 };
 
+// --- Input Components ---
 export const NumberRow = ({
   label,
   description,
