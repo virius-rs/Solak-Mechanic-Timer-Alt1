@@ -1,0 +1,17 @@
+{
+  "appName": "Solak Mechanic Timer",
+  "id": "solak-mechanic-timer-app",
+  "version": "1.0",
+  "description": "Assistance for Solak, Guardian of the Grove",
+  "appUrl": "./index.html",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./icon.png",
+  "defaultWidth": 200,
+  "defaultHeight": 50,
+  "minWidth": 190,
+  "minHeight": 32,
+  "maxWidth": 1000,
+  "maxHeight": 800,
+  "activators": [],
+  "permissions": "gamestate,pixel,overlay"
+}
