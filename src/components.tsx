@@ -48,6 +48,7 @@ export class ErrorBoundary extends React.Component<
               color: "#fff",
               border: "1px solid #666",
               padding: "4px 8px",
+              cursor: "pointer",
             }}
           >
             Reload App
@@ -60,7 +61,6 @@ export class ErrorBoundary extends React.Component<
   }
 }
 
-// ... (Rest of components.tsx - PassiveStatus, ProgressBar, PopoutWindow, DebuggerWindow, NumberRow, SelectRow - KEEP THESE THE SAME AS BEFORE)
 // --- Status Box ---
 export const PassiveStatus = ({
   text,
