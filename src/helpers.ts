@@ -1,4 +1,4 @@
-import { mixColor } from "alt1/base";
+import { mixColor } from "@alt1/base";
 
 export const alt1 = window.alt1;
 
