@@ -1,8 +1,8 @@
 {
   "appName": "Solak Mechanic Timer",
   "id": "solak-mechanic-timer-app",
-  "version": "1.0",
-  "description": "Assistance for Solak, Guardian of the Grove",
+  "version": "0.2 (closed beta)",
+  "description": "Assistant for Solak, Guardian of the Grove.",
   "appUrl": "./index.html",
   "configUrl": "./appconfig.json",
   "iconUrl": "./icon.png",

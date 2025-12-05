@@ -1,15 +1,19 @@
-#root {
-  /* Remove the template padding/margins */
-  margin: 0;
-  padding: 0;
+/* ==========================================================================
+   APP CONTAINER STYLES
+   ========================================================================== */
 
-  /* Ensure it fills the window exactly */
-  width: 100%;
-  height: 100%;
-
-  /* Prevent scrolling */
-  overflow: hidden;
-
-  /* Reset text alignment so your components control it */
-  text-align: left;
-}
+   #root {
+    /* Remove the template padding/margins */
+    margin: 0;
+    padding: 0;
+  
+    /* Ensure it fills the window exactly */
+    width: 100%;
+    height: 100%;
+  
+    /* Prevent scrolling */
+    overflow: hidden;
+  
+    /* Reset text alignment so your components control it */
+    text-align: left;
+  }

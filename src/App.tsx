@@ -1,4 +1,5 @@
-import { ChatReader } from "./ChatReader";
+import { ChatReader } from "./components/Overlay";
+import "./App.css";
 
 function App() {
   return (
